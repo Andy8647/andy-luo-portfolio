@@ -35,12 +35,14 @@ const Resume = () => {
       <div className="container mx-auto cursor-none mb-10">
         <Header isBlog />
         {mount && (
-          <div className="mt-10 w-full flex flex-col items-center">
+          <div className="mt-10 w-full flex flex-col items-center" >
             <div
-              className={`w-full ${
-                mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
-              } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
+              className={`w-full ${mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
+                } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
+              style={{ position: "relative" }}
             >
+              <a href="andy.pdf" target={'_blank'} style={{ position: "absolute", left: "1rem", top: '1rem', textDecoration: "none" }} > Download Pdf Version </a>
+
               <h1 className="text-3xl font-bold">{name}</h1>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
               <h2 className="w-4/5 text-xl mt-5 opacity-50">
