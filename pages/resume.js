@@ -41,7 +41,7 @@ const Resume = () => {
                 } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
               style={{ position: "relative" }}
             >
-              <a href="andy.pdf" target={'_blank'} style={{ position: "absolute", left: "1rem", top: '1rem', textDecoration: "none" }} > Download Pdf Version </a>
+              <a href="andy.pdf" target={'_blank'} style={{ position: "absolute", right: "1rem", top: '1rem', textDecoration: "none" }} > Download Pdf Version </a>
 
               <h1 className="text-3xl font-bold">{name}</h1>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
