@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
@@ -13,6 +13,7 @@ import Cursor from "../components/Cursor";
 
 // Local Data
 import data from "../data/portfolio.json";
+import { log } from "../utils/log";
 
 export default function Home() {
   // Ref
@@ -22,6 +23,10 @@ export default function Home() {
   const textTwo = useRef();
   const textThree = useRef();
   const textFour = useRef();
+
+  useEffect(() => {
+    log('home_page_view');
+  })
 
   // Handling Scroll
   const handleWorkScroll = () => {

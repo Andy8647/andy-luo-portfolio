@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
+import { log } from "../../utils/log";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
@@ -80,7 +81,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:andy8647lgc@gmail.com")}
+                    onClick={() => { window.open("mailto:andy8647lgc@gmail.com"); log('email_click'); }}
                   >
                     Contact
                   </Button>
@@ -103,7 +104,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:andy8647lgc@gmail.com")}
+                    onClick={() => { window.open("mailto:andy8647lgc@gmail.com"); log('email_click'); }}
                   >
                     Contact
                   </Button>
@@ -139,7 +140,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => { window.open("mailto:andy8647lgc@gmail.com"); log('email_click'); }}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
