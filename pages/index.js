@@ -98,7 +98,7 @@ export default function Home() {
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
-        {/* <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
@@ -108,11 +108,11 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
+              // onClick={() => window.open(project.url)}
               />
             ))}
           </div>
-        </div> */}
+        </div>
 
         {/* <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
