@@ -126,8 +126,7 @@ export const info = {
       title: 'Open Source React Portfolio Template',
       live: 'https://andy8647.com', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/Andy8647/react-portfolio-template', // this should be a link to the **repository** of the project, where the code is hosted.
-      image:
-        'https://camo.githubusercontent.com/ec09e28e12650d8737882a2f1695599035200cc0a5cadebd9b246686fc1cb1f9/68747470733a2f2f616e6479383634372e636f6d2f776562736974652e6a7067',
+      image: 'https://andy8647.com/website.jpg',
     },
     {
       title: 'CryptoGoGo - Online Cryptocurrency Community and Trading platform',
