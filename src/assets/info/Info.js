@@ -27,7 +27,7 @@ export const info = {
   socials: [
     {
       link: 'https://andy8647.com/andy.pdf',
-      icon: 'fa fa-file',
+      icon: 'fa fa-user-circle',
       label: 'resume',
     },
     {
@@ -49,6 +49,11 @@ export const info = {
       link: 'https://twitter.com/Andy8647L',
       icon: 'fa fa-twitter',
       label: 'twitter',
+    },
+    {
+      link: 'https://500px.com/p/andy8647lgc?view=photos',
+      icon: 'fa fa-500px',
+      label: '500px',
     },
   ],
   bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working at commonsku as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
