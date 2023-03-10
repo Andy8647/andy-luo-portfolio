@@ -10,11 +10,16 @@ Attention: This is based on paytonjewell's [react-portfolio-template](https://gi
 I just added particlets background, OS dark mode detection and watch, Google Analytics.
 Elements redesigned by [Ingrid Fei](https://ingrid-0126.netlify.app)
 
+
 ### Original README:
 
 ## Features
 
 🌑 Dark Mode Toggler and OS dark mode detection
+
+📱Social Media Presence meta tags
+
+📊 Google Analytics
 
 📖 Multiple Pages (React Router)
 
@@ -71,7 +76,7 @@ export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 For the particles background color, you can change the colors in `/src/assets/colors/particlesBg.js`
 These are the colors I picked from iTerm2's color schemes, but you can use whatever you like.
 
-```
+```js
 export const particleBgColors = () => {
   // for dark use atom one dark, for light use CLRS
   const background = (darkMode = false) => (darkMode ? '#0d2538' : '#DCD6C8');
@@ -105,6 +110,7 @@ const firebaseConfig = {
 ### 5. Social Media Presence meta tags
 - edit `/public/index.html`
 - for meta tags, you can use the generator [here](https://metatags.io/)
+- [twitter example](https://twitter.com/Andy8647L/status/1633956293986664448)
 
 ```html
 <!-- Social Media Previews -->
@@ -127,6 +133,11 @@ const firebaseConfig = {
     <meta property="twitter:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
     <meta property="twitter:image" content="https://andy8647.com/website.jpg">
 ```
+
+
+### 6. Deployment
+
+I recommend using [Netlify](https://www.netlify.com/) for deployment. It's free and easy to use. You can follow the instructions [here](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) to deploy your site.
 
 ---
 
