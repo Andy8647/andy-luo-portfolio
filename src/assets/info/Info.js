@@ -12,24 +12,19 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: '🇨🇦',
+      emoji: '🇨🇦 🍁 🌃',
       text: 'based in the Toronto, Canada',
     },
     {
-      emoji: '💻',
-      text: 'Full Stack Developer at commonsku',
+      emoji: '💻 🧑‍💻️ ⌨️',
+      text: 'Full Stack Developer',
     },
     {
-      emoji: '📧',
+      emoji: '📧 📨 📩',
       text: 'andy8647lgc@gmail.com',
     },
   ],
   socials: [
-    {
-      link: 'https://andy8647.com/andy.pdf',
-      icon: 'fa fa-user-circle',
-      label: 'resume',
-    },
     {
       link: 'https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=',
       icon: 'fa fa-instagram',
@@ -56,7 +51,7 @@ export const info = {
       label: '500px',
     },
   ],
-  bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working at commonsku as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
+  bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
   skills: {
     languages: ['TypeScript', 'JavaScript', 'Java', 'PHP', 'Python', 'HTML/CSS'],
     frameworks: [
