@@ -44,7 +44,7 @@ export default function Home({ darkMode }) {
         }}
       >
         <h1>
-          Hi, I'm{' '}
+          Hi, I'm &nbsp;
           <span
             style={{
               background: info.gradient,
@@ -52,7 +52,7 @@ export default function Home({ darkMode }) {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            {info.firstName}
+            {info.firstName} &nbsp;
           </span>
           <span className={Style.hand}>🤚</span>
         </h1>

@@ -7,7 +7,8 @@ import { info } from '../assets/info/Info';
 
 const links = [
   {
-    name: 'Home',
+    name: info.initials,
+    type: 'initials',
     to: '/',
     active: 'home',
   },
@@ -15,18 +16,7 @@ const links = [
     name: 'About Me',
     to: '/about',
     active: 'about',
-  },
-  {
-    name: info.initials,
-    type: 'initials',
-    to: '/',
-    active: 'home',
-  },
-  {
-    name: 'Portfolio',
-    to: '/portfolio',
-    active: 'portfolio',
-  },
+  }
 ];
 
 export default function Navbar({ darkMode, handleClick }) {
@@ -54,10 +44,25 @@ export default function Navbar({ darkMode, handleClick }) {
           >
             <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
               {!link.type && <p style={{ padding: '0.5rem 0' }}>{link.name}</p>}
-              {link.type && <h1>{link.name}</h1>}
+              {link.type && (
+                <h1
+                  style={
+                    link.active === active
+                      ? {
+                        background: info.gradient,
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
+                      }
+                      : {}
+                  }
+                >
+                  {info.firstName}
+                </h1>
+              )}
             </Link>
           </Box>
         ))}
+
         <li>
           <Toggler darkMode={darkMode} handleClick={handleClick} />
         </li>

@@ -8,9 +8,6 @@ const ParticlesBg = ({ darkMode }) => {
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log('Particles loaded', container);
-  }, []);
 
   const { background, links, particle } = particleBgColors();
 
@@ -28,7 +25,6 @@ const ParticlesBg = ({ darkMode }) => {
     <Particles
       id="tsparticles"
       init={particlesInit}
-      loaded={particlesLoaded}
       options={{
         background: {
           color: {

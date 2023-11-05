@@ -26,9 +26,9 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=',
-      icon: 'fa fa-instagram',
-      label: 'instagram',
+      link: 'https://andy8647.com/andy.pdf',
+      icon: 'fa fa-user-circle',
+      label: 'resume',
     },
     {
       link: 'https://github.com/Andy8647',
@@ -40,11 +40,11 @@ export const info = {
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
-    {
-      link: 'https://twitter.com/Andy8647L',
-      icon: 'fa fa-twitter',
-      label: 'twitter',
-    },
+    // {
+    //   link: 'https://unsplash.com/@andy8647',
+    //   icon: 'fa fa-unsplash',
+    //   label: 'unsplash',
+    // },
     {
       link: 'https://500px.com/p/andy8647lgc?view=photos',
       icon: 'fa fa-500px',
@@ -64,10 +64,9 @@ export const info = {
       'Spring Boot',
       'Bootstrap/jQuery',
       'Zend',
-      'Django',
     ],
-    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
-    cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
+    databases: ['MySQl', 'MongoDB', 'Mybatis', 'TypeORM'],
+    cloudServices: ['Lambda', 'CloudFormation', 'AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
     tools: [
       'Git',
       'Postman',

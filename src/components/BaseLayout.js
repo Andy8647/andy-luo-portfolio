@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
 import { logGa } from '../utils/log';
+import Footer from './Footer';
 
 export default function BaseLayout() {
   let [darkMode, setDarkMode] = useState(false);
@@ -60,27 +61,7 @@ export default function BaseLayout() {
             <Route exact path={'/portfolio'} element={<Portfolio />} />
           </Routes>
         </Grid>
-        <Grid item>
-          <Box
-            component={'footer'}
-            display={'flex'}
-            flexDirection={'column'}
-            alignItems={'center'}
-            py={'1.5rem'}
-            sx={{ opacity: 0.7 }}
-            width={'100%'}
-          >
-            <p>
-              template created with &hearts; by{' '}
-              <a href={'https://paytonpierce.dev'}>Payton Pierce</a>
-            </p>
-            <p>
-              enhence implemented with &hearts; by <a href={'https://andy8647.com'}>Andy Luo </a>,
-              redesigned with &hearts; by <a href={'https://ingrid0126.com'}>Ingrid Fei</a>
-            </p>
-            <p>&copy; 2023</p>
-          </Box>
-        </Grid>
+        <Footer />
       </Grid>
     </Box>
   );
