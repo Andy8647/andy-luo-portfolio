@@ -27,29 +27,24 @@ export const info = {
   socials: [
     {
       link: 'https://andy8647.com/andy.pdf',
-      icon: 'fa fa-user-circle',
+      icon: 'fas fa-file',
       label: 'resume',
     },
     {
       link: 'https://github.com/Andy8647',
-      icon: 'fa fa-github',
+      icon: 'fab fa-github',
       label: 'github',
     },
     {
       link: 'https://www.linkedin.com/in/gancheng-luo-andy/',
-      icon: 'fa fa-linkedin',
+      icon: 'fab fa-linkedin',
       label: 'linkedin',
     },
-    // {
-    //   link: 'https://unsplash.com/@andy8647',
-    //   icon: 'fa fa-unsplash',
-    //   label: 'unsplash',
-    // },
     {
-      link: 'https://500px.com/p/andy8647lgc?view=photos',
-      icon: 'fa fa-500px',
-      label: '500px',
-    },
+      link: 'https://unsplash.com/@andy8647',
+      icon: 'fab fa-unsplash',
+      label: 'unsplash',
+    }
   ],
   bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
   skills: {
@@ -66,7 +61,7 @@ export const info = {
       'Zend',
     ],
     databases: ['MySQl', 'MongoDB', 'Mybatis', 'TypeORM'],
-    cloudServices: ['Lambda', 'CloudFormation', 'AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
+    cloudServices: ['AWS Lambda', 'CloudFormation', 'AWS S3', 'AWS SNS', 'Google Analytics', 'Netlify'],
     tools: [
       'Git',
       'Postman',
