@@ -26,11 +26,6 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://andy8647.com/andy.pdf',
-      icon: 'fas fa-file',
-      label: 'resume',
-    },
-    {
       link: 'https://github.com/Andy8647',
       icon: 'fab fa-github',
       label: 'github',
